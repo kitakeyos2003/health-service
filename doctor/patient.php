@@ -174,7 +174,7 @@
                         </p>
                         <p class="heading-sub12" style="padding: 0;margin: 0;">
                             <?php 
-                        date_default_timezone_set('Asia/Kolkata');
+                        date_default_timezone_set('Asia/Ho_Chi_Minh');
 
                         $date = date('Y-m-d');
                         echo $date;

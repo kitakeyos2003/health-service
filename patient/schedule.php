@@ -52,7 +52,7 @@
     //echo $userid;
     //echo $username;
     
-    date_default_timezone_set('Asia/Kolkata');
+    date_default_timezone_set('Asia/Ho_Chi_Minh');
 
     $today = date('Y-m-d');
 

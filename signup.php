@@ -23,7 +23,7 @@ $_SESSION["user"]="";
 $_SESSION["usertype"]="";
 
 // Set the new timezone
-date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
 $date = date('Y-m-d');
 
 $_SESSION["date"]=$date;
@@ -59,47 +59,47 @@ if($_POST){
         <table border="0">
             <tr>
                 <td colspan="2">
-                    <p class="header-text">Let's Get Started</p>
-                    <p class="sub-text">Add Your Personal Details to Continue</p>
+                    <p class="header-text">Bắt đầu nào</p>
+                    <p class="sub-text">Thêm thông tin cá nhân của bạn để tiếp tục</p>
                 </td>
             </tr>
             <tr>
                 <form action="" method="POST" >
                 <td class="label-td" colspan="2">
-                    <label for="name" class="form-label">Name: </label>
+                    <label for="name" class="form-label">Họ và tên: </label>
                 </td>
             </tr>
             <tr>
                 <td class="label-td">
-                    <input type="text" name="fname" class="input-text" placeholder="First Name" required>
+                    <input type="text" name="fname" class="input-text" placeholder="Tên" required>
                 </td>
                 <td class="label-td">
-                    <input type="text" name="lname" class="input-text" placeholder="Last Name" required>
+                    <input type="text" name="lname" class="input-text" placeholder="Họ" required>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <label for="address" class="form-label">Address: </label>
+                    <label for="address" class="form-label">Địa chỉ: </label>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <input type="text" name="address" class="input-text" placeholder="Address" required>
+                    <input type="text" name="address" class="input-text" placeholder="Địa chỉ" required>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <label for="nic" class="form-label">NIC: </label>
+                    <label for="nic" class="form-label">CMT/CCCD: </label>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <input type="text" name="nic" class="input-text" placeholder="NIC Number" required>
+                    <input type="text" name="nic" class="input-text" placeholder="CMT/CCCD" required>
                 </td>
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <label for="dob" class="form-label">Date of Birth: </label>
+                    <label for="dob" class="form-label">Ngày sinh: </label>
                 </td>
             </tr>
             <tr>
@@ -114,18 +114,18 @@ if($_POST){
 
             <tr>
                 <td>
-                    <input type="reset" value="Reset" class="login-btn btn-primary-soft btn" >
+                    <input type="reset" value="Nhập lại" class="login-btn btn-primary-soft btn" >
                 </td>
                 <td>
-                    <input type="submit" value="Next" class="login-btn btn-primary btn">
+                    <input type="submit" value="Tiếp theo" class="login-btn btn-primary btn">
                 </td>
 
             </tr>
             <tr>
                 <td colspan="2">
                     <br>
-                    <label for="" class="sub-text" style="font-weight: 280;">Already have an account&#63; </label>
-                    <a href="login.php" class="hover-link1 non-style-link">Login</a>
+                    <label for="" class="sub-text" style="font-weight: 280;">Bạn đã có tài khoản&#63; </label>
+                    <a href="login.php" class="hover-link1 non-style-link">Đăng nhập</a>
                     <br><br><br>
                 </td>
             </tr>

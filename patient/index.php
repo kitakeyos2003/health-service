@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../public/css/animations.css">  
     <link rel="stylesheet" href="../public/css/main.css">  
     <link rel="stylesheet" href="../public/css/admin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         
     <title>Dashboard</title>
     <style>
@@ -130,7 +131,7 @@
                                 </p>
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                     <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Asia/Ho_Chi_Minh');
         
                                 $today = date('Y-m-d');
                                 echo $today;
